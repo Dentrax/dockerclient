@@ -1,6 +1,12 @@
 Docker client library in Go
 ===========================
-[![GoDoc](http://godoc.org/github.com/samalba/dockerclient?status.png)](http://godoc.org/github.com/samalba/dockerclient)
+[![GoDoc](http://godoc.org/github.com/Dentrax/dockerclient?status.png)](http://godoc.org/github.com/Dentrax/dockerclient)
+
+# Fork Changes
+
+Contains the following PRs:
+
+* https://github.com/Dentrax/dockerclient/pull/246
 
 No longer well-maintained docker client library. Docker's supported engine
 API client for go is [docker/engine-api](http://github.com/docker/engine-api).
@@ -13,7 +19,7 @@ Here is an example showing how to use it:
 package main
 
 import (
-	"github.com/samalba/dockerclient"
+	"github.com/Dentrax/dockerclient"
 	"log"
 	"time"
 	"os"
